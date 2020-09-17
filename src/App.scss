@@ -1,3 +1,39 @@
-.App {
-  color: blue;
+.container {
+  // background: #eee;
+  padding: 25px 50px;
+  position: absolute;
+  bottom: 0;
+  align-content: center;
+
+  &__heading {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  &__youtube {
+    color: #eb3223;
+  }
+
+  &__facebook {
+      color: #4968ad;
+  }
+
+  &__twitter {
+    color: #49a1eb;
+  }
+
+  &__instagram {
+    color: black;
+  }
+
+  a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }
+
+  a.social:hover {
+    transform: translateY(-5px);
+  }
 }

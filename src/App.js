@@ -1,12 +1,13 @@
-import React from 'react';
+import React from 'react'
+import SocialFollow from './Components/SocialFollow/SocialFollow'
 import './App.scss'
 
 function App() {
   return (
     <div className="App">
-      react components
+      <SocialFollow />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
