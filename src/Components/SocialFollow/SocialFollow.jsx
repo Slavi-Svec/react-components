@@ -4,7 +4,8 @@ import {
   faYoutube,
   faFacebook,
   faTwitter,
-  faInstagram
+  faInstagram,
+  faGithub,
 } from "@fortawesome/free-brands-svg-icons"
 
  const SocialFollow = () => {
