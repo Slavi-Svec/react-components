@@ -6,19 +6,21 @@ import ButtonTwo from './Components/ButtonTwo/ButtonTwo'
 import ButtonThree from './Components/ButtonThree/ButtonThree'
 import Counter from './Components/Counter/Counter'
 import RenderString from './Components/RenderString/RenderString'
+import Posts from './Components/Posts/Posts'
 
 function App() {
   return (
     <div className="App">
-      <SocialFollow />
+      {/* <SocialFollow /> */}
       <Navbar />
-      <ButtonTwo
+      {/* <ButtonTwo
       text="press"
       alert="hello world"
-      />
-      <ButtonThree />
-      <Counter />
-      <RenderString />
+      /> */}
+      {/* <ButtonThree /> */}
+      {/* <Counter /> */}
+      {/* <RenderString /> */}
+      <Posts />
     </div>
   )
 }

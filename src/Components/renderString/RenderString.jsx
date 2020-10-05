@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const RenderString = () => {
-  const [words, setWords] = useState('')
+  const [words, setWords] = useState('') 
 
   return (
     <>
