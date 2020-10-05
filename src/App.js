@@ -5,6 +5,7 @@ import './App.scss'
 import ButtonTwo from './Components/ButtonTwo/ButtonTwo'
 import ButtonThree from './Components/ButtonThree/ButtonThree'
 import Counter from './Components/Counter/Counter'
+import RenderString from './Components/RenderString/RenderString'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       />
       <ButtonThree />
       <Counter />
+      <RenderString />
     </div>
   )
 }
