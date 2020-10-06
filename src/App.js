@@ -7,6 +7,7 @@ import ButtonThree from './Components/ButtonThree/ButtonThree'
 import Counter from './Components/Counter/Counter'
 import RenderString from './Components/RenderString/RenderString'
 import Posts from './Components/Posts/Posts'
+import Presidents from './Components/Presidents/Presidents'
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/* <ButtonThree /> */}
       {/* <Counter /> */}
       {/* <RenderString /> */}
-      <Posts />
+      {/* <Posts /> */}
+      <Presidents />
     </div>
   )
 }
