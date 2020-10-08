@@ -6,25 +6,26 @@ import {
   faTwitter,
   faInstagram,
   faGithub,
+
 } from "@fortawesome/free-brands-svg-icons"
 
  const SocialFollow = () => {
   return (
     <div className="container">
       <div className="container__heading">Follow me on social media</div>
-      <a href="https://www.youtube.com/c/jamesqquick"
+      <a href="https://www.youtube.com"
         className="container__youtube social">
         <FontAwesomeIcon icon={faYoutube} size="5x" />
       </a>
-      <a href="https://www.facebook.com/learnbuildteach/"
+      <a href="https://www.facebook.com"
         className="container__facebook social">
         <FontAwesomeIcon icon={faFacebook} size="5x" />
       </a>
-      <a href="https://www.twitter.com/jamesqquick"
+      <a href="https://www.twitter.com"
         className="container__twitter social">
         <FontAwesomeIcon icon={faTwitter} size="5x" />
       </a>
-      <a href="https://www.instagram.com/learnbuildteach"
+      <a href="https://www.instagram.com"
         className="container__instagram social">
         <FontAwesomeIcon icon={faInstagram} size="5x" />
       </a>

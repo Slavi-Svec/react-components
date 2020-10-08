@@ -13,6 +13,7 @@ import Presidents from './Components/Presidents/Presidents'
 import ProjectCard from './Components/ProjectCard/ProjectsCard'
 import ProjectOneL from './Assets/projectoneL.png'
 import ProjectButton from './Components/ProjectCard/ProjectButton/ProjectButton'
+import Simpsons from './Assets/simpsons-app.png'
 
 function App() {
   return (
@@ -27,18 +28,18 @@ function App() {
           />
 
       <ProjectCard
-        className="App__ProjectCard"
+        variant="primary"
         src={ProjectOneL}
         title="weather app"
         description="this simple weather app displays the current weather as well as a 5 day forecast. Using react and
                       sass as well as accessing the json data from the open weather maps database."
        />
        <ProjectCard
-        className="App__ProjectCard"
-        src={ProjectOneL}
-        title="weather app"
-        description="this simple weather app displays the current weather as well as a 5 day forecast. Using react and
-                      sass as well as accessing the json data from the open weather maps database."
+        variant="secondary"
+        src={Simpsons}
+        title="Simpsons Quote Generator"
+        description="this app calls an api request and return as random
+                    simpons quote and image upon pressing the button, in additon quotes can be posted to twitter."
        />
     </div>
   )
