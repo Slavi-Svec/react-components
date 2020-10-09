@@ -14,32 +14,36 @@ import ProjectCard from './Components/ProjectCard/ProjectsCard'
 import ProjectOneL from './Assets/projectoneL.png'
 import ProjectButton from './Components/ProjectCard/ProjectButton/ProjectButton'
 import Simpsons from './Assets/simpsons-app.png'
+import Laptop from './Assets/laptop.png'
+import LaptopTwo from './Assets/laptop-phone-template.png'
 
 function App() {
   return (
     <div className="App">
       {/* <SocialFollow /> */}
       {/* <Navbar /> */}
-      <NavbarTwo />
-      <ProjectButton
+      {/* <NavbarTwo /> */}
+      <ButtonThree 
+      />
+      {/* <ProjectButton
             heading="view on codepen"
             variant="primary"
-            src={"https://codepen.io/slavi-svec/full/ZEQvJjY"}
-          />
+            src="https://codepen.io/slavi-svec/full/ZEQvJjY"
+          /> */}
 
       <ProjectCard
         variant="primary"
-        src={ProjectOneL}
+        src={LaptopTwo}
         title="weather app"
-        description="this simple weather app displays the current weather as well as a 5 day forecast. Using react and
-                      sass as well as accessing the json data from the open weather maps database."
+        description="A simple weather app that displays the current weather and 5 day forecast. Using React and
+                     SASS. The updated datais are accessed from open weather maps api."
        />
        <ProjectCard
         variant="secondary"
-        src={Simpsons}
+        src={Laptop}
         title="Simpsons Quote Generator"
-        description="this app calls an api request and return as random
-                    simpons quote and image upon pressing the button, in additon quotes can be posted to twitter."
+        description="This app calls an api request to return random
+                    simpons quotes and images upon pressing a button, in additon quotes can be posted to twitter."
        />
     </div>
   )

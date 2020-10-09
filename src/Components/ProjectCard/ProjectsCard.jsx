@@ -9,11 +9,11 @@ const ProjectCard = ({title, src, description, variant}) => {
   return (
     <>
     <section className="project">
-      <section className="project__Body">
+      <section className="project__body">
         <div className={`project__${variant}`}>
-          <img className="projectCardImage" src={src} alt="alternate"></img>
-          <div className="textContainer">
-            <h1 className="projectTitle">{title}</h1>
+          <img className="project__cardImage" src={src} alt="alternate"></img>
+          <div className="project__textContainer">
+            <h1 className="project__title">{title}</h1>
             <p className="projectDescription">{description}</p>
             <ProjectButton
               className="CodePenButton"

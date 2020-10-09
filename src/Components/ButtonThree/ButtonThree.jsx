@@ -1,17 +1,15 @@
 import React, { useState } from 'react';
 
-const  ButtonThree = () => {
-  const [heading, setHeading] = useState(false)
+const ButtonThree = () => {
+ const [text, setText] = useState('click me')
 
   return (
-    <div>
-
-      <p> {'hello'}</p>
-      <button onClick={() => console.log('hi')}>
-        Click me
-      </button>
-    </div>
-  );
+    <>
+      <section>
+        <button onClick={() => setText('it is clicked')}>{text}</button>
+      </section>
+    </>
+  )
 }
 
 export default ButtonThree

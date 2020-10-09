@@ -5,14 +5,15 @@ import {faCodepen} from "@fortawesome/free-brands-svg-icons"
 
 import './styles.scss'
 
-const ProjectButton = ({ heading,  variant, src}) => (
+const ProjectButton = ({ heading,  variant, src }) => (
   <button
     className={`button__${variant}`}
-    onClick={() => window.open({src})}
+    onClick={() => window.open(src)}
   >
-    { heading }
-
+  { heading }
+  <FontAwesomeIcon icon={faCodepen} size="3x" color="white" />
   </button>
 )
 
 export default ProjectButton
+
