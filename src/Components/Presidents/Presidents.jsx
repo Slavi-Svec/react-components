@@ -37,8 +37,3 @@ const setDictator = (name, image) => {
 
 export default Presidents
 
-
-
-
-
-

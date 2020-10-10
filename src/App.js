@@ -23,14 +23,13 @@ function App() {
       {/* <SocialFollow /> */}
       {/* <Navbar /> */}
       {/* <NavbarTwo /> */}
-      <ButtonThree 
-      />
+      <ButtonThree />
       {/* <ProjectButton
             heading="view on codepen"
             variant="primary"
             src="https://codepen.io/slavi-svec/full/ZEQvJjY"
           /> */}
-
+{/* 
       <ProjectCard
         variant="primary"
         src={LaptopTwo}
@@ -44,7 +43,7 @@ function App() {
         title="Simpsons Quote Generator"
         description="This app calls an api request to return random
                     simpons quotes and images upon pressing a button, in additon quotes can be posted to twitter."
-       />
+       /> */}
     </div>
   )
 }
