@@ -16,6 +16,8 @@ import ProjectButton from './Components/ProjectCard/ProjectButton/ProjectButton'
 import Simpsons from './Assets/simpsons-app.png'
 import Laptop from './Assets/laptop.png'
 import LaptopTwo from './Assets/laptop-phone-template.png'
+import ButtonFour from './Components/ButtonThree/ButtonFour'
+import RandomPresidents from './Components/Presidents/randomPresidents'
 
 function App() {
   return (
@@ -23,13 +25,15 @@ function App() {
       {/* <SocialFollow /> */}
       {/* <Navbar /> */}
       {/* <NavbarTwo /> */}
-      <ButtonThree />
+      {/* <ButtonThree /> */}
+      {/* <ButtonFour   /> */}
+      <RandomPresidents />
       {/* <ProjectButton
             heading="view on codepen"
             variant="primary"
             src="https://codepen.io/slavi-svec/full/ZEQvJjY"
           /> */}
-{/* 
+{/*
       <ProjectCard
         variant="primary"
         src={LaptopTwo}

@@ -1,7 +1,14 @@
-.button {
+.heading {
   color: red;
+  width: 400px;
+  height: 100px;
 
   &--active {
     color: blue;
   }
+}
+
+.button {
+  width: 400px;
+  height: 100px;
 }

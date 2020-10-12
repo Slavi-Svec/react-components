@@ -2,37 +2,27 @@ import React, { useState } from 'react';
 import './style.scss'
 
 const ButtonThree = () => {
-  const [shouldShowText, setShouldShowText] = useState(false)
-  let buttonClass = 'button'
-  // if true buttonClass = 'button--active
-  // append --active to the string button
+  const [shouldShowText, setShouldHowText] = useState(false)
+  let headingClass = 'heading'
+
   if (shouldShowText) {
-    buttonClass += '--active'
+    headingClass += '--active'
   }
-  console.log(buttonClass)
-
+    console.log(headingClass)
   return (
     <>
-      <button className="button" onClick={() => setShouldShowText(!shouldShowText)}>button press</button>
-      <h1 className={buttonClass}>{shouldShowText ? 'on' : 'off'}</h1>
-    </>
-  )
-}
-
-const ButtonThree = () => {
-  const [isOn, toggleIsOn] = useState()
-  return (
-    <>
-      <h1></h1>{isOn ? 'I Want To vote For D Trump!' : 'I want to Vote for V Putin!'}
-      <button onClick={toggleIsOn}>
-        Press me
-      </button>
+      <button onClick={() => setShouldHowText(!shouldShowText)}>press</button>
+      <h1 className={headingClass}>{shouldShowText ? 'on' : 'off'}</h1>
     </>
   )
 }
 
 export default ButtonThree
 
+// const [president, setPresident] = useState(['Trump', 'Obmama', 'Clinton'])
+// have an onclick that dispalys presedents randoml
+
+//  array of words in defaut usestate
 
 
 
