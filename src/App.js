@@ -18,6 +18,7 @@ import Laptop from './Assets/laptop.png'
 import LaptopTwo from './Assets/laptop-phone-template.png'
 import ButtonFour from './Components/ButtonThree/ButtonFour'
 import RandomPresidents from './Components/Presidents/randomPresidents'
+import ColorChanger from './Components/Presidents/ColorChanger'
 
 function App() {
   return (
@@ -28,6 +29,8 @@ function App() {
       {/* <ButtonThree /> */}
       {/* <ButtonFour   /> */}
       <RandomPresidents />
+      <ColorChanger />
+
       {/* <ProjectButton
             heading="view on codepen"
             variant="primary"
