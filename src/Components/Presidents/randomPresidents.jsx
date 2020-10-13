@@ -1,24 +1,22 @@
 import React, { useState } from 'react';
+import RandomColors from './RandomColors'
+
+const presidents = ['clinton', 'Obama', 'Bush', 'Ford', 'Trump']
+const getRandom = (arr) => arr[Math.floor(Math.random() * arr.length)]
+const colorPallete = '0123456789ABCDER'
 
 const RandomPresidents = () => {
-  const [changeArray, SetChangeArray] = useState('Nixon')
-
-  const getRandom = () => {
-    const presidents =  ['clinton', 'Obama', 'Bush', 'Ford', 'Trump']
-    const onePresident = presidents[Math.floor(Math.random() * presidents.length)]
-    return onePresident
-  }
-
-  const getRandomColors = () => {
-    const 
-  }
+  const [president, setPresident] = useState('Nixon')
 
   return (
     <>
-      <button onClick={() => SetChangeArray(getRandom)}>press</button>
-      <h1>{changeArray}</h1>
+      <button onClick={() => setPresident(getRandom(presidents))}>press</button>
+      <h1>{president}</h1>
+      <div>{document.body.style.backgroundColor = RandomColors(colorPallete)}</div>
     </>
   )
 }
 
 export default RandomPresidents
+
+
