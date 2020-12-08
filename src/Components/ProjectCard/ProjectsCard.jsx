@@ -5,7 +5,7 @@ import {faCodepen} from "@fortawesome/free-brands-svg-icons"
 import './style.scss'
 
 
-const ProjectCard = ({title, src, description, variant}) => {
+const ProjectCard = ({ variant, src, title, description, }) => {
   return (
     <>
     <section className="project">
@@ -15,11 +15,6 @@ const ProjectCard = ({title, src, description, variant}) => {
           <div className="project__textContainer">
             <h1 className="project__title">{title}</h1>
             <p className="projectDescription">{description}</p>
-            <ProjectButton
-              className="CodePenButton"
-              heading="view on codepen"
-              variant="secondary"
-            />
           </div>
         </div>
       </section>
