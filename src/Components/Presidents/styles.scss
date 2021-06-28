@@ -1,8 +1,20 @@
-.hello {
+.colorContainer {
+  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  color :black;
-  margin-top: 100px;
+  justify-content: center;
+  background: paleturquoise;
+  font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+  border: 2px solid red;
+
+}
+.colorHeading {
+  color: blue;
+}
+
+.wrapper {
+  background-color: red;
+  height: 100vh;
 }
