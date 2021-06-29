@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  margin: 30px 200px 0 200px;
+  padding: 30px 10% 0 10%;
 }
 .flex-grid {
   margin: 0 0 20px 0;
@@ -25,7 +25,7 @@ body {
   justify-content: center;
 }
 .flex-grid-fours .col {
-  width: 100%;
+  width: 350px;
   height: 350px;
 }
 
