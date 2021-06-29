@@ -6,13 +6,14 @@
 }
 .flex-grid-fours {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .flex-grid-fours .col {
-  width: 32%;
+  width: 350px;
+  height: 350px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 414px) {
   .flex-grid,
   .flex-grid-fours {
     display: block;
