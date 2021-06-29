@@ -5,12 +5,12 @@ const ReactGrid = () => {
   return (
     <>
       <div class="flex-grid-fours">
-        <div className="col">volunteers</div>
-        <div className="col">Band Submission</div>
+        <div className="col">DIV 1</div>
+        <div className="col">DIV 2</div>
       </div>
       <div class="flex-grid-fours">
-        <div className="col">Tickets.</div>
-        <div className="col">Flyer</div>
+        <div className="col">DIV 3</div>
+        <div className="col">DIV 4</div>
       </div>
     </>
   )
