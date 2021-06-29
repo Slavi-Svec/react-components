@@ -20,13 +20,14 @@ import ButtonFour from './Components/ButtonThree/ButtonFour'
 import RandomPresidents from './Components/Presidents/randomPresidents'
 import ColorChanger from './Components/Presidents/ColorChanger'
 import MessageSender from './Components/Presidents/MessageSender'
+import ReactGrid from './Components/ReactGrid/ReactGrid'
 
 function App() {
   return (
     <div className="App">
       {/* <SocialFollow /> */}
       {/* <Navbar /> */}
-      <NavbarTwo />
+      {/* <NavbarTwo /> */}
       {/* <ButtonThree /> */}
       {/* <ButtonFour   /> */}
       {/* <RandomPresidents /> */}
@@ -55,6 +56,7 @@ function App() {
         description="This app calls an api request to return random
                     simpons quotes and images upon pressing a button, in additon quotes can be posted to twitter."
        />  */}
+      <ReactGrid />
     </div>
   )
 }
