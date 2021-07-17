@@ -32,7 +32,7 @@ const ContactForm = () => {
   }
 
   return (
-    <section className="form">
+    <section className="form-section">
       <div className="form-container">
         <form className="submit-form" onSubmit={handleSubmit}>
           {submitted && valid ? (
