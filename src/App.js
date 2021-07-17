@@ -1,26 +1,6 @@
 import React from 'react'
-import SocialFollow from './Components/SocialFollow/SocialFollow'
-import Navbar from './Components/Navbar/Navbar'
-import NavbarTwo from './Components/Navbar-2/NavbarTwo'
-
 import './App.scss'
-import ButtonTwo from './Components/ButtonTwo/ButtonTwo'
-import ButtonThree from './Components/ButtonThree/ButtonThree'
-import Counter from './Components/Counter/Counter'
-import RenderString from './Components/RenderString/RenderString'
-import Posts from './Components/Posts/Posts'
-import Presidents from './Components/Presidents/Presidents'
-import ProjectCard from './Components/ProjectCard/ProjectsCard'
-import ProjectOneL from './Assets/projectoneL.png'
-import ProjectButton from './Components/ProjectCard/ProjectButton/ProjectButton'
-import Simpsons from './Assets/simpsons-app.png'
-import Laptop from './Assets/laptop.png'
-import LaptopTwo from './Assets/laptop-phone-template.png'
-import ButtonFour from './Components/ButtonThree/ButtonFour'
-import RandomPresidents from './Components/Presidents/randomPresidents'
-import ColorChanger from './Components/Presidents/ColorChanger'
-import MessageSender from './Components/Presidents/MessageSender'
-import ReactGrid from './Components/ReactGrid/ReactGrid'
+import ContactForm from './Components/ContactForm/ContactForm'
 
 function App() {
   return (
@@ -56,7 +36,8 @@ function App() {
         description="This app calls an api request to return random
                     simpons quotes and images upon pressing a button, in additon quotes can be posted to twitter."
        />  */}
-      <ReactGrid />
+      {/* <ReactGrid /> */}
+      <ContactForm />
     </div>
   )
 }
