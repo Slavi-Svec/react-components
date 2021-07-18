@@ -1,5 +1,4 @@
 .container {
-  // background: #eee;
   padding: 25px 50px;
   position: absolute;
   bottom: 0;
@@ -16,7 +15,7 @@
   }
 
   &__facebook {
-      color: #4968ad;
+    color: #4968ad;
   }
 
   &__twitter {
@@ -37,7 +36,6 @@
     transform: translateY(-5px);
   }
 }
-
 
 // This is for the nav bar styles
 
