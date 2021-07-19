@@ -1,13 +1,9 @@
 import React from 'react'
 import './App.scss'
-import Form from './Components/Form/Form'
+import CardVariant from './Components/CardVariant/CardVariant'
 
 function App() {
-  return (
-    <div className="App">
-      <Form />
-    </div>
-  )
+  return <CardVariant className="card__variant" />
 }
 
 export default App
