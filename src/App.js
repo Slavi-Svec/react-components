@@ -1,9 +1,9 @@
 import React from 'react'
 import './App.scss'
-import CardVariant from './Components/CardVariant/CardVariant'
+import NavbarThree from './Components/Navbar-3/NavbarThree'
 
 function App() {
-  return <CardVariant className="card__variant" />
+  return <NavbarThree />
 }
 
 export default App
