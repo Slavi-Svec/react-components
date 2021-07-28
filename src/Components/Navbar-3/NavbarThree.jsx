@@ -10,48 +10,10 @@ const Navbar = () => {
   const handleClick = () => setClick(!click)
   const closeMobileMenu = () => setClick(false)
 
-  //  show hamburger menu button on mobile device
-  const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false)
-    } else {
-      setButton(true)
-    }
-  }
-
-  useEffect(() => {
-    showButton()
-  }, [])
-
-  window.addEventListener('resize', showButton)
-
-  //  change background from transparent to blue when scroll down the page
-  const changeBackground = () => {
-    if (window.scrollY >= 20) {
-      setNavbar(true)
-    } else {
-      setNavbar(false)
-    }
-  }
-
-  window.addEventListener('scroll', changeBackground)
-
-  //   chage text color in the navbar when scroll down the page
-  const changeText = () => {
-    if (window.scrollY >= 20) {
-      setNavbarText(true)
-    } else {
-      setNavbarText(false)
-    }
-  }
-
-  window.addEventListener('scroll', changeText)
-
   return (
     <>
       <nav className={navbar ? 'navbar active' : 'navbar'}>
         <div className="navbar-container">
-          <li to="/" className="navbar-logo" onClick={closeMobileMenu}></li>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
