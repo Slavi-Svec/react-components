@@ -10,17 +10,17 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        <div className="menu-icon" onClick={handleClick}>
+        <div className="hamburger-menu" onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className="navbarText">
-            <li to="/" className="nav-lis" onClick={closeMobileMenu}>
+            <li to="/" className="nav-list" onClick={closeMobileMenu}>
               About
             </li>
           </li>
           <li className="navbarText">
-            <li to="/work" className="nav-lis" onClick={closeMobileMenu}>
+            <li to="/work" className="nav-list" onClick={closeMobileMenu}>
               Work
             </li>
           </li>
