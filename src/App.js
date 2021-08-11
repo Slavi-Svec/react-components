@@ -1,9 +1,9 @@
 import React from 'react'
 import './App.scss'
-import NavbarThree from './Components/Navbar-3/NavbarThree'
+import About from './Components/HeroImage/About'
 
 function App() {
-  return <NavbarThree />
+  return <About />
 }
 
 export default App
