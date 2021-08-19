@@ -1,0 +1,18 @@
+.about-hero-section {
+  display: flex;
+  height: 93vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.about-hero-section {
+  background-image: url('/src/images/mountain.jpg');
+  background-size: cover;
+  border: 2px solid red;
+}
