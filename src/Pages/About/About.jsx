@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import DarkMode from "../Components/DarkMode/DarkMode";
+import DarkMode from "../../Components/DarkMode/DarkMode/DarkMode";
 
 const About = () => {
   return (

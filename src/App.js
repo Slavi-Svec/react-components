@@ -1,8 +1,9 @@
 import React from "react";
-import About from "./Pages/About";
+import AboutPage from "./Pages/AboutPage/AboutPage";
 
 const App = () => {
-  return <About />;
+  // return <About />;
+  return <AboutPage />;
 };
 
 export default App;
