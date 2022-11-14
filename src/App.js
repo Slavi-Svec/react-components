@@ -1,18 +1,8 @@
-// import React from 'react'
-// import './App.scss'
-// import About from './Components/HeroImage/About'
+import React from "react";
+import About from "./Pages/About";
 
-// function App() {
-//   return <About />
-// }
+const App = () => {
+  return <About />;
+};
 
-// export default App
-
-import React from 'react'
-import ScrollButton from './Components/ScrollButton/ScrollButton'
-
-function App() {
-  return <ScrollButton />
-}
-
-export default App
+export default App;
