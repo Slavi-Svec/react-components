@@ -13,30 +13,33 @@ const About = () => {
         <DarkModeTwo />
       </nav>
       <div className="main-section">
-        <h1>Im Slavi</h1>
+        <div className="title-heading">Im Slavi</div>
         <div className="image"></div>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-          eget scelerisque neque, quis scelerisque erat. Quisque venenatis
-          molestie sapien, dapibus viverra nulla hendrerit eget. Pellentesque
-          egestas ultrices accumsan. Ut ac magna vel ex maximus ultricies. Nulla
-          facilisi. Suspendisse gravida sem eu odio mattis ullamcorper.
-          Curabitur feugiat ipsum vel vulputate ultricies.
-        </p>
-        <p>
-          Praesent pulvinar faucibus risus in iaculis. Sed erat felis, pretium
-          sit amet ultricies non, porta et lacus. Curabitur a urna mi. Sed
-          eleifend sed erat eget viverra. Quisque sit amet purus viverra massa
-          posuere congue. Suspendisse efficitur venenatis enim, id hendrerit
-          enim ultrices sed. Nam sed dapibus nisi.
-        </p>
-        <p>
-          Praesent pulvinar faucibus risus in iaculis. Sed erat felis, pretium
-          sit amet ultricies non, porta et lacus. Curabitur a urna mi. Sed
-          eleifend sed erat eget viverra. Quisque sit amet purus viverra massa
-          posuere congue. Suspendisse efficitur venenatis enim, id hendrerit
-          enim ultrices sed. Nam sed dapibus nisi.
-        </p>
+        <section className="text-container">
+          <div className="icon-image"></div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+            eget scelerisque neque, quis scelerisque erat. Quisque venenatis
+            molestie sapien, dapibus viverra nulla hendrerit eget. Pellentesque
+            egestas ultrices accumsan. Ut ac magna vel ex maximus ultricies.
+            Nulla facilisi. Suspendisse gravida sem eu odio mattis ullamcorper.
+            Curabitur feugiat ipsum vel vulputate ultricies.
+          </p>
+          <p>
+            Praesent pulvinar faucibus risus in iaculis. Sed erat felis, pretium
+            sit amet ultricies non, porta et lacus. Curabitur a urna mi. Sed
+            eleifend sed erat eget viverra. Quisque sit amet purus viverra massa
+            posuere congue. Suspendisse efficitur venenatis enim, id hendrerit
+            enim ultrices sed. Nam sed dapibus nisi.
+          </p>
+          <p>
+            Praesent pulvinar faucibus risus in iaculis. Sed erat felis, pretium
+            sit amet ultricies non, porta et lacus. Curabitur a urna mi. Sed
+            eleifend sed erat eget viverra. Quisque sit amet purus viverra massa
+            posuere congue. Suspendisse efficitur venenatis enim, id hendrerit
+            enim ultrices sed. Nam sed dapibus nisi.
+          </p>
+        </section>
       </div>
     </div>
   );

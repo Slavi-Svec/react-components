@@ -4,31 +4,31 @@ import "./styles.css";
 const DarkModeTwo = () => {
   let clickedClass = "clicked";
   const body = document.body;
-  const lightTheme = "light";
-  const darkTheme = "dark";
+  const lightMode = "light";
+  const darkMode = "dark";
   let theme;
 
   if (localStorage) {
     theme = localStorage.getItem("theme");
   }
 
-  if (theme === lightTheme || theme === darkTheme) {
+  if (theme === lightMode || theme === darkMode) {
     body.classList.add(theme);
   } else {
-    body.classList.add(lightTheme);
+    body.classList.add(lightMode);
   }
 
   const switchTheme = (e) => {
-    if (theme === darkTheme) {
-      body.classList.replace(darkTheme, lightTheme);
+    if (theme === darkMode) {
+      body.classList.replace(darkMode, lightMode);
       e.target.classList.remove(clickedClass);
       localStorage.setItem("theme", "light");
-      theme = lightTheme;
+      theme = lightMode;
     } else {
-      body.classList.replace(lightTheme, darkTheme);
+      body.classList.replace(lightMode, darkMode);
       e.target.classList.add(clickedClass);
       localStorage.setItem("theme", "dark");
-      theme = darkTheme;
+      theme = darkMode;
     }
   };
 
